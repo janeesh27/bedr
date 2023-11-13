@@ -1,3 +1,9 @@
+/* Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap');
+/* Fonts import */
+
+/* CSS reset*/
 *::before,
 *::after {
     margin: 0;
@@ -7,6 +13,7 @@
 
 body,
 html {
+    font-family: 'Jost', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -24,4 +31,34 @@ input:active,
 input:focus {
     outline: none;
     font-size: 16px;
+}
+/* CSS reset*/
+
+/* CSS variables */
+:root {
+    /* Primary colors */
+    --primary-blue: #002f5d;
+    --primary-orange: #f7553d;
+    --primary-blue: #fff;
+
+    /* Secondary colors */
+    --secondary-blue: #0f5584;
+    --secondary-dark-blue: #00192d;
+    --secondary-peach: #f4897d;
+    --secondary-orange: #d64738;
+}
+/* CSS variables */
+
+h1 {
+    font-family: 'Antonio';
+    font-weight: 600;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Jost';
 }
