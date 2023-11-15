@@ -1,19 +1,13 @@
 import "./App.css";
+import Hero from "./components/Hero";
+import GetABed from "./components/GetABed";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-center">TESTING FONTS</h1>
-
-      <h2>Kudi kendi nigga marda</h2>
-
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
-        explicabo incidunt, at blanditiis ut maiores iste odit repudiandae
-        assumenda asperiores ullam non expedita nulla minus quis nemo itaque
-        quo. Ipsa.0
-      </p>
-    </div>
+    <>
+      {/* <Hero /> */}
+      <GetABed />
+    </>
   );
 }
 
