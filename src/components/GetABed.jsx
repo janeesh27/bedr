@@ -3,10 +3,8 @@ import React from "react";
 const GetABed = () => {
   return (
     <div className="grid grid-rows-2">
-      <div className="bg-[--secondary-blue]">
-        <div className="absolute">
-          <img src="./getabed2.png" />
-        </div>
+      <div className="bg-[#60ACF5]">
+        <div className="absolute">{/* <img src="./getabed2.png" /> */}</div>
       </div>
       <div>
         <div>
