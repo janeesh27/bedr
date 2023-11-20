@@ -23,7 +23,7 @@ const Navbar = () => {
     }, [active]);
 
     return (
-        <nav className="h-[50px] fixed bg-primary-blue flex items-center w-screen pl-[14px] md:h-[90px] md:justify-center lg:pl-[100px]">
+        <nav className="h-[50px] fixed bg-primary-blue flex items-center w-screen pl-[14px] md:h-[80px] md:justify-center lg:pl-[100px]">
             <div className="shrink-0">
                 {/* Mobile Logo */}
                 <IconContainer src={logoMobile} alt="Bedr logo" height={30} width={20} className="md:hidden" />
