@@ -1,0 +1,27 @@
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 17px;
+    height: 1.5px;
+    background-color: #fff;
+    margin: 2.5px 0;
+    transition: 0.4s;
+}
+
+.hamburger.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 4px);
+    background-color: #000;
+}
+
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -4px);
+    background-color: #000;
+}

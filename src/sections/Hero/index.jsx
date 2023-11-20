@@ -22,7 +22,9 @@ const Hero = () => {
                 START RENTING
             </button>
 
-            <img src={heroImg} alt="hero-img" className={`${styles.heroImg} mx-auto relative top-[-15px]`} />
+            <div className={`${styles.heroImg} mx-auto z-0`}>
+                <img src={heroImg} alt="hero-img" />
+            </div>
         </main>
     );
 };
