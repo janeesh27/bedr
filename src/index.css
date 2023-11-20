@@ -41,7 +41,6 @@ input:focus {
   /* Primary colors */
   --primary-blue: #002f5d;
   --primary-orange: #f7553d;
-  --primary-blue: #fff;
 
   /* Secondary colors */
   --secondary-blue: #0f5584;
@@ -64,4 +63,7 @@ h5,
 h6,
 p {
   font-family: "Jost";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30;
 }
