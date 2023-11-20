@@ -1,36 +1,32 @@
 .menuMobile {
-    z-index: 999;
+  z-index: 999;
 }
 
 .navMenuMobile {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-    overflow: hidden;
-    display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  opacity: 1;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  display: none;
 }
 
 .navMenuMobile.active {
-    display: block;
-    background: #fff;
-    right: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 9999;
+  display: block;
+  background: #fff;
+  right: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 9999;
 }
 
 .navMenuDesktop {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: normal;
-
-    & li {
-        cursor: pointer;
-    }
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
 }
