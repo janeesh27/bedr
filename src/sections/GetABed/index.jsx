@@ -6,7 +6,7 @@ const GetABed = () => {
     <div className="grid grid-rows-[auto_auto] sm:flex sm:flex-row-reverse">
       <div className="">
         <div>
-          <img src="./getabed.png" className="min-w-[400px]" />
+          <img src="./getabed_mobile.png" className="min-w-[400px]" />
         </div>
       </div>
       <div className="bg-[#60ACF5] relative">
