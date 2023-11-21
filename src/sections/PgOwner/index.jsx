@@ -17,7 +17,7 @@ const index = () => {
             List Your Property
           </h3>
         </div>
-        <div className="absolute bottom-[-20px] right-[175px] md:right-[235px] lg:right-[335px] md:bottom-[-30px]">
+        <div className="absolute bottom-[-20px] right-[190px] md:right-[235px] lg:right-[335px] md:bottom-[-30px]">
           <PgOwnerCard text="TENANT MATCHING GUARANTEED" percentage="100%" />
         </div>
         <div className="absolute bottom-[-20px] right-[35px] md:bottom-[60px] ">
