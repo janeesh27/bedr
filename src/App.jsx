@@ -23,13 +23,6 @@ function App() {
       <VerticalSpacer />
       <PgOwner />
       <VerticalSpacer />
-
-      <VerticalSpacer />
-      <PopularLocalities />
-      <VerticalSpacer />
-
-      <PopularCities />
-      <VerticalSpacer />
       <Community />
       {/* <ThankyouPage /> */}
     </>
