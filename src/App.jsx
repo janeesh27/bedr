@@ -7,6 +7,7 @@ import Community from "./sections/Community";
 import ThankyouPage from "./sections/ThankyouPage";
 import PopularCities from "./sections/PopularCities";
 import PopularLocalities from "./sections/PopularLocalities";
+import Blogs from "./sections/Blogs";
 
 import Navbar from "./components/Navbar";
 import VerticalSpacer from "./components/VerticalSpacer";
@@ -19,11 +20,20 @@ function App() {
       <VerticalSpacer />
       <Features />
       <VerticalSpacer />
-      {/* <GetABed /> */}
+      <GetABed />
+      <VerticalSpacer />
       <VerticalSpacer />
       <PgOwner />
       <VerticalSpacer />
+      <VerticalSpacer />
+      <PopularLocalities />
+      <VerticalSpacer />
+      <PopularCities />
+      <VerticalSpacer />
       <Community />
+      <VerticalSpacer />
+      <Blogs />
+      <VerticalSpacer />
       {/* <ThankyouPage /> */}
     </>
   );

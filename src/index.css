@@ -1,6 +1,6 @@
 /* Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap");
 /* Fonts import */
 @tailwind base;
 @tailwind components;
@@ -8,32 +8,32 @@
 /* CSS reset*/
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body,
 html {
-    font-family: 'Jost', sans-serif;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+  font-family: "Jost", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 input,
 input:active,
 input:focus {
-    outline: none;
-    font-size: 16px;
+  outline: none;
+  font-size: 16px;
 }
 /* CSS reset*/
 
@@ -42,24 +42,24 @@ input:focus {
 .root,
 #root,
 #docs-root {
-    /* Primary colors */
-    --primary-blue: #002f5d;
-    --primary-orange: #f7553d;
-    --primary-whited: #fff;
-    --primary-sky: #60acf5;
+  /* Primary colors */
+  --primary-blue: #002f5d;
+  --primary-orange: #f7553d;
+  --primary-whited: #fff;
+  --primary-sky: #60acf5;
 
-    /* Secondary colors */
-    --secondary-blue: #0f5584;
-    --secondary-dark-blue: #00192d;
-    --secondary-peach: #f4897d;
-    --secondary-orange: #d64738;
+  /* Secondary colors */
+  --secondary-blue: #0f5584;
+  --secondary-dark-blue: #00192d;
+  --secondary-peach: #f4897d;
+  --secondary-orange: #d64738;
 }
 /* CSS variables */
 
 h1 {
-    font-family: 'Antonio';
-    font-weight: 600;
-    font-size: 18px;
+  font-family: "Antonio";
+  font-weight: 600;
+  font-size: 18px;
 }
 
 h2,
@@ -68,14 +68,14 @@ h4,
 h5,
 h6,
 p {
-    font-family: 'Jost';
+  font-family: "Jost";
 }
 
 img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .overflow_hidden {
-    overflow: hidden;
+  overflow: hidden;
 }
