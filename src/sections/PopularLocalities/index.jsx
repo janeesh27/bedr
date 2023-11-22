@@ -64,6 +64,22 @@ const index = () => {
           <PropertyCard key={index} {...property} />
         ))}
       </div>
+      <div className="bg-[#60ACF5] mx-4 rounded-lg">
+        <div className="pt-4 px-4">
+          <img src="./map.png" />
+        </div>
+        <h1 className="text-center font-bold text-[24px] leading-[30px] pt-4">
+          DISCOVER AND FILTER BY:
+        </h1>
+        <div className="flex justify-around text-[12px] font-[600] text-white leading-7 pt-4 ">
+          <button>Rent per month</button>
+          <button>Near Metro Stations</button>
+        </div>
+        <div className="flex justify-around text-left text-[12px] text-white font-[600] leading-7 pb-6">
+          <button>Near Colleges</button>
+          <button>Near Colleges</button>
+        </div>
+      </div>
     </>
   );
 };
