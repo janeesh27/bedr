@@ -7,6 +7,7 @@ export default {
                 'primary-blue': 'var(--primary-blue)',
                 'secondary-peach': 'var(--secondary-peach)',
                 'secondary-dark-blue': 'var(--secondary-dark-blue)',
+                'primary-orange': 'var(--primary-orange)',
             },
         },
     },
