@@ -51,7 +51,7 @@ const index = () => {
   return (
     <>
       <div className="mx-2">
-        <h1 className="text-[24px] leading-7 font-[700] pr-8 ">
+        <h1 className="text-[24px] text-[--primary-blue] leading-7 font-[700] pr-8 ">
           KNOW WHAT’S GOING ON IN THE INDUSTRY WITH BedR BLOGS
         </h1>
         <div className="flex gap-4 md:justify-center justify-start md:flex-wrap pt-4 mx-4 overflow-auto">

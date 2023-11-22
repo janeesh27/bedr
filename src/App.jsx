@@ -8,6 +8,7 @@ import ThankyouPage from "./sections/ThankyouPage";
 import PopularCities from "./sections/PopularCities";
 import PopularLocalities from "./sections/PopularLocalities";
 import Blogs from "./sections/Blogs";
+import SignUp from "./sections/SignUp";
 
 import Navbar from "./components/Navbar";
 import VerticalSpacer from "./components/VerticalSpacer";
@@ -15,7 +16,7 @@ import VerticalSpacer from "./components/VerticalSpacer";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <VerticalSpacer />
       <Features />
@@ -33,8 +34,9 @@ function App() {
       <Community />
       <VerticalSpacer />
       <Blogs />
-      <VerticalSpacer />
+      <VerticalSpacer /> */}
       {/* <ThankyouPage /> */}
+      <SignUp />
     </>
   );
 }
