@@ -20,8 +20,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <BlogPage />
-            {/* <Hero />
+            <Hero />
             <VerticalSpacer />
             <Features />
             <VerticalSpacer />
@@ -38,9 +37,10 @@ function App() {
             <Community />
             <VerticalSpacer />
             <Blogs />
-            <VerticalSpacer /> */}
+            <VerticalSpacer />
             {/* <ThankyouPage /> */}
             {/* <SignUp /> */}
+            {/* <BlogPage /> */}
             <Footer />
         </>
     );
