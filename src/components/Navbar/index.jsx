@@ -47,10 +47,11 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <ul className={`${styles.navMenuMobile} ${active && styles.active}`}></ul>
+                <ul className={`${styles.navMenuMobile} text-black ${active && styles.active}`}>jhghfhgj</ul>
 
                 <ul
-                    className={`${styles.navMenuDesktop} hidden md:flex h-full items-center justify-end lg:pr-[100px] md:pr-[24px] lg:gap-[100px] md:gap-[50px] z-[999999]`}>
+                    className={`${styles.navMenuDesktop} hidden md:flex h-full items-center justify-end lg:pr-[100px] md:pr-[24px] lg:gap-[100px] md:gap-[50px] z-[999999]`}
+                >
                     <li>Item1</li>
                     <li>Item2</li>
                     <li>Item3</li>

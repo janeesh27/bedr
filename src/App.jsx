@@ -11,6 +11,7 @@ import PopularLocalities from './sections/PopularLocalities';
 import Blogs from './sections/Blogs';
 import BlogPage from './sections/BlogPage';
 import SignUp from './sections/SignUp';
+import FilterPage from './sections/FilterPage';
 
 import Navbar from './components/Navbar';
 import VerticalSpacer from './components/VerticalSpacer';
@@ -20,7 +21,8 @@ function App() {
     return (
         <>
             <Navbar />
-            <Hero />
+            <FilterPage />
+            {/* <Hero />
             <VerticalSpacer />
             <Features />
             <VerticalSpacer />
@@ -37,7 +39,7 @@ function App() {
             <Community />
             <VerticalSpacer />
             <Blogs />
-            <VerticalSpacer />
+            <VerticalSpacer /> */}
             {/* <ThankyouPage /> */}
             {/* <SignUp /> */}
             {/* <BlogPage /> */}
