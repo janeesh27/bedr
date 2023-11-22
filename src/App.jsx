@@ -21,8 +21,8 @@ function App() {
     return (
         <>
             <Navbar />
-            <FilterPage />
-            {/* <Hero />
+            {/* <FilterPage /> */}
+            <Hero />
             <VerticalSpacer />
             <Features />
             <VerticalSpacer />
@@ -39,7 +39,7 @@ function App() {
             <Community />
             <VerticalSpacer />
             <Blogs />
-            <VerticalSpacer /> */}
+            <VerticalSpacer />
             {/* <ThankyouPage /> */}
             {/* <SignUp /> */}
             {/* <BlogPage /> */}
