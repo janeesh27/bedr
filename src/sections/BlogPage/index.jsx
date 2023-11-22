@@ -1,6 +1,30 @@
 import React from 'react';
 
-const propertiesData = [
+const blogData = [
+    {
+        srcImage: './blogs.png',
+        title: 'Real Estate Housing Market Stocks in India 2023',
+        buttonText: 'READ MORE',
+        duration: '10 min read',
+    },
+    {
+        srcImage: './blogs.png',
+        title: 'Real Estate Housing Market Stocks in India 2023',
+        buttonText: 'READ MORE',
+        duration: '10 min read',
+    },
+    {
+        srcImage: './blogs.png',
+        title: 'Real Estate Housing Market Stocks in India 2023',
+        buttonText: 'READ MORE',
+        duration: '10 min read',
+    },
+    {
+        srcImage: './blogs.png',
+        title: 'Real Estate Housing Market Stocks in India 2023',
+        buttonText: 'READ MORE',
+        duration: '10 min read',
+    },
     {
         srcImage: './blogs.png',
         title: 'Real Estate Housing Market Stocks in India 2023',
@@ -29,11 +53,15 @@ const propertiesData = [
     // Add more objects as needed
 ];
 
-const PropertyCard = ({ srcImage, title, buttonText, duration }) => {
+const BlogCard = ({ srcImage, title, buttonText, duration }) => {
     return (
-        <div className="w-[242px] h-[241px] sm:w-[306px] sm:h-[333px] border-[--primary-blue] border-[1px] rounded-lg">
+        <div className="w-[328px] h-[300px] sm:w-[306px] sm:h-[300px] border-[--primary-blue] border-[1px] rounded-lg">
             <div className="p-2">
-                <img src={srcImage} alt={title} className="min-w-[216px] min-h-[129px]" />
+                <img
+                    src={srcImage}
+                    alt={title}
+                    className="min-w-[306px] min-h-[158px] sm:min-h-[129px] sm:min-w-[216px] "
+                />
             </div>
             <div className="ml-2">
                 <h2 className="text-[--primary-blue] pt-4 text-[14px] border-t-[1px] border-[--primary-blue] leading-4 font-semibold">
@@ -51,15 +79,10 @@ const PropertyCard = ({ srcImage, title, buttonText, duration }) => {
 const index = () => {
     return (
         <>
-            <div className="mx-2">
-                <h1 className="text-[24px] text-[--primary-blue] leading-7 font-[700] pr-8 ">
-                    KNOW WHAT’S GOING ON IN THE INDUSTRY WITH BedR BLOGS
-                </h1>
-                <div className="flex gap-4 md:justify-center justify-start md:flex-wrap pt-4 mx-4 overflow-auto">
-                    {propertiesData.map((property, index) => (
-                        <PropertyCard key={index} {...property} />
-                    ))}
-                </div>
+            <div className="flex gap-4 md:justify-center flex-col-reverse sm:flex-row justify-start md:flex-wrap py-4 mx-6 sm:overflow-auto">
+                {blogData.map((property, index) => (
+                    <BlogCard key={index} {...property} />
+                ))}
             </div>
         </>
     );
